@@ -52,6 +52,7 @@ kubectl rollout status deployment deployment
 kubectl scale deployment deployment --replicas=1
 ```
 
+### Deploy Log
 ```logcatfilter
 \app_v1> kubectl rollout status deployment app-deployment
 Waiting for deployment "app-deployment" rollout to finish: 1 out of 2 new replicas have been updated...
